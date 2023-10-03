@@ -1,0 +1,13 @@
+body {
+  background-color: $red;
+  height: $vh-100;
+  nav {
+    width: $vw-100;
+    a {
+      text-align: center;
+      span {
+        color: red;
+      }
+    }
+  }
+}

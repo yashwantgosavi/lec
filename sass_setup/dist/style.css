@@ -1,0 +1,13 @@
+body {
+  background-color: red;
+  height: 100vh;
+}
+body nav {
+  width: 100vw;
+}
+body nav a {
+  text-align: center;
+}
+body nav a span {
+  color: red;
+} /*# sourceMappingURL=style.css.map */
