@@ -1,0 +1,14 @@
+nav {
+  width: $per-100;
+  height: $px-80;
+  background-color: $white;
+
+  .subscribeBtn {
+    // @include roundedBtn();
+  }
+}
+
+
+button{
+    // @include roundedBtn();
+}

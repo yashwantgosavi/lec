@@ -1,0 +1,7 @@
+@mixin roundedBtn(){
+    width: fit-content;
+    background-color: $blue;
+    border-radius: $px-12;
+    padding: $px-12;
+    color: $white;
+}
