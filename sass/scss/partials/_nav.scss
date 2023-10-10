@@ -1,14 +1,16 @@
 nav {
-  width: $per-100;
-  height: $px-80;
-  background-color: $white;
-
-  .subscribeBtn {
-    // @include roundedBtn();
+  display: flex;
+  justify-content: space-between;
+  margin: 25px auto;
+  align-items: center;
+  ul {
+    display: flex;
+    justify-content: space-between;
   }
-}
-
-
-button{
-    // @include roundedBtn();
+  input {
+    @include transparentBtn();
+  }
+  div:nth-child(2) {
+    width: 50%;
+  }
 }

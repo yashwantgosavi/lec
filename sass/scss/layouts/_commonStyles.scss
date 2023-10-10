@@ -122,12 +122,20 @@ table {
 }
 
 // common CSS
-
+*{
+  font-family: $font;
+}
 body {
   margin: 0;
   height: 100vh;
   width: 100vw;
+  overflow-x: hidden; 
 }
 a{
 	text-decoration: none;
+}
+
+.container{
+  width: $container;
+  margin: auto;
 }

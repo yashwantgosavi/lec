@@ -2,10 +2,21 @@ $vh-100: 100vh;
 $vw-100: 100vw;
 $vh-50: 50vh;
 $vw-50: 50vw;
+
 // percentage
 $per-100: 100%;
+$per-50: 50%;
+$per-25: 25%;
 
 
-// px
-$px-80: 80px;
-$px-12: 12px;
+// Margins
+$section-m: 100px auto;
+$head-desc-m: 24px auto;
+$content-m: 14px auto;
+
+// container
+$container: 1300px;
+
+
+// border
+$blueBorder: 1px solid $blue;

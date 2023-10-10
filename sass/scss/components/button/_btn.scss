@@ -1,7 +1,21 @@
-@mixin roundedBtn(){
-    width: fit-content;
-    background-color: $blue;
-    border-radius: $px-12;
-    padding: $px-12;
-    color: $white;
+@mixin btn() {
+  height: 51px;
+  padding: 15px 31px;
+  align-items: center;
+  border-radius: 7px;
+  border: none;
+}
+
+@mixin blueBtn() {
+  @include btn();
+  background-color: $blue;
+  color: $white;
+}
+
+@mixin transparentBtn() {
+  @include btn();
+  background-color: transparent;
+  &:hover{
+    border: $blueBorder;
+  }
 }
