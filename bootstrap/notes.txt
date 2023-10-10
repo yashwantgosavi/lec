@@ -1,0 +1,32 @@
+/************************************
+      All Important Classes In 4.6v
+*************************************/
+
+.img-fluid
+.rounded
+.mx-auto
+.my-auto
+.px-auto
+.py-auto
+.ml-auto
+.mt-auto
+.mb-auto
+.mr-auto
+.pl-auto
+.pt-auto
+.pb-auto
+.pr-auto
+.container
+
+// Text Alignment
+.text-center
+.text-left
+.text-right
+.text-justify
+
+sm = 540px  min
+md = 720px
+lg = 960px
+xl = 1140px
+
+
