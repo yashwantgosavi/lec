@@ -3,12 +3,17 @@ nav {
   justify-content: space-between;
   margin: 25px auto;
   align-items: center;
+  a{
+    color: $black;
+  }
   ul {
     display: flex;
     justify-content: space-between;
   }
   input {
     @include transparentBtn();
+    border-color: $blue;
+
   }
   div:nth-child(2) {
     width: 50%;

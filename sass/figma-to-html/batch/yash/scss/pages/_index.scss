@@ -1,0 +1,64 @@
+header {
+  @include div1-1();
+
+  input:first-child {
+    @include input();
+    &:focus {
+      border-color: transparent !important;
+    }
+  }
+  input:last-child {
+    @include blueBtn();
+  }
+  p {
+    font-size: $h5;
+  }
+
+  div:last-child {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    h2 {
+      font-size: $h2;
+    }
+    p {
+      line-height: 35px;
+      color: $grey;
+    }
+    form {
+      display: flex;
+      column-gap: 15px;
+    }
+  }
+}
+
+// Learn English for everyday situations
+
+#startLearning {
+  @include div1-1();
+  h6{
+    margin-bottom: 40px;
+  }
+a{
+    @include blueBtn();
+  }
+
+
+  .card{
+    @include shadow();
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    border-radius: 25px;
+    padding: 10px;
+    .card-header{
+      background-color: $lightBlue;
+      border-radius: 25px;
+    }
+    ul{
+li{
+  float: left;
+}
+    }
+  }
+}

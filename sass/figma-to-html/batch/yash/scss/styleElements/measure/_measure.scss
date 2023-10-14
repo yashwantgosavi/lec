@@ -19,4 +19,7 @@ $container: 1300px;
 
 
 // border
-$blueBorder: 1px solid $blue;
+@mixin border(){
+    $border: 1px solid;
+    border-radius: 12px;
+}

@@ -3,7 +3,7 @@
   padding: 15px 31px;
   align-items: center;
   border-radius: 7px;
-  border: none;
+  // border: none;
 }
 
 @mixin blueBtn() {
@@ -14,8 +14,18 @@
 
 @mixin transparentBtn() {
   @include btn();
+  @include border();
   background-color: transparent;
-  &:hover{
-    border: $blueBorder;
+  border-color: $blue;
+  &:hover {
+    background-color: $blue;
+    color: $white;
   }
+}
+
+@mixin input() {
+  padding: 10px;
+  width: 50%;
+  padding: 15px;
+  @include border();
 }
