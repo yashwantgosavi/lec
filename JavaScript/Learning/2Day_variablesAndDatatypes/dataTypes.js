@@ -14,11 +14,11 @@ Data Types
 //         console.log(typeof num + " = "+ num);
 
 // // String
-//         const firstName = "yashwant";
-//         const lastName = 'yashwant'; // "yashwant's"
-//         // const nickname =  `No name`; // Backtick Mark
-//         console.log(lastName);
-//         console.log(typeof lastName);
+        // const firstName = "yashwant";
+        // const lastName = 'yashwant'; // "yashwant's"
+        // // const nickname =  `No name`; // Backtick Mark
+        // console.log(lastName);
+        // console.log(typeof lastName);
 
 // // Boolean
 // let married = true; // true, false
@@ -27,7 +27,8 @@ Data Types
 
 // // Undefined
 //       let a;
-//       console.log(a);
+//       console.log(typeof a);
+//       a= 10;
 
 // // Null
 //      let b = null;

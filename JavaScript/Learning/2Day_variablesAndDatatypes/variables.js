@@ -18,6 +18,7 @@ we can used only this special characters when we will write variables name: numb
   1) let:
         declaration : let age;  
                       age = 10;
+
             - we can assign value later
             - we can declared variables without values
   2) var:
