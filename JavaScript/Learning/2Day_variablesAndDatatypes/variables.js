@@ -13,6 +13,7 @@ we can used only this special characters when we will write variables name: numb
   - camel casing and snake casing
 
 
+
   *let and const (ES6)
 
   1) let:
@@ -29,6 +30,7 @@ we can used only this special characters when we will write variables name: numb
         - we need to give some value.
 
 */ 
+
 
 
 // let
