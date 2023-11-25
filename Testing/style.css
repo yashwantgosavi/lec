@@ -1,0 +1,13 @@
+div {
+    height: 400px;
+    width: 400px;
+    background-color: red;
+}
+
+div :before {
+    background-color: blue;
+    rotate: 40deg;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
