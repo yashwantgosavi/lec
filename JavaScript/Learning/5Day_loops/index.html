@@ -50,15 +50,15 @@
       -->
 
     <script>
-        // let input = prompt("Enter number");
+        let input = prompt("Enter number");
 
-        // for (let i = 0; i <= input; i++) {
+        for (let i = 0; i <= input; i++) {
 
-        //     for (let j = 1; j <= i; j++) {
-        //         document.write(j);
-        //     }
-        //     document.write("<br>");
-        // }
+            for (let j = 1; j <= i; j++) {
+                document.write(j);
+            }
+            document.write("<br>");
+        }
 
         // let i = 5;
         // while (i < 10) {
@@ -96,6 +96,11 @@
             for (let j = 1; j <= b; j++) {
                 if (j < i) {
                     document.write("if is true");
+                    if (i<b) {
+                        console.log("we are in invorment");
+                    } else {
+                        console.log("error");
+                    }
                 } else {
                     document.write("false");
                 }

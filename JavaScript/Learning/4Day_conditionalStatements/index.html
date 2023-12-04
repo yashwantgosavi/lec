@@ -14,37 +14,52 @@
     <script>
 
 
-        // let marks = prompt("Enter your total score");
+        let marks = prompt("Enter your total score");
 
-        // if (marks > 90) {
-        //     if (condition) {
+        if (marks > 90) {
+            console.log("A Grade");            
+        }
+        else if (marks >= 80 && marks <= 89) {
+            console.log("B Grade")
+        }
+        else if (marks < 60) {
+            console.log("F Grade")
+        }
+        else {
+            console.log("num not found")
+        }
 
-        //     } else {
 
-        //     }
-        // } else if (marks >= 80 && marks <= 89) {
-        //     console.log("B Grade")
-        // }
-        // else if (marks < 60) {
-        //     console.log("F Grade")
-        // }
-        // else {
-        //     console.log("num not found")
-        // }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         let fruits = prompt();
 
         switch (fruits) {
+
             case "Apple":
             case "Kiwi":
-                console.log("")
+                console.log("avialble")
                 break;
 
             default:
                 console.log();
                 break;
         }
+
+
+
 
     </script>
 
