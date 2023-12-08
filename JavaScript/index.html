@@ -5,51 +5,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-
 </head>
 
 <body>
-
+  <!-- if else -->
 
   <script>
+    let Day = prompt();
 
-    /*
-    
-    *****
-    ****
-    ***
-    **
-    *
-    
-    */
-
-    let star = "*"
-
-    let input = prompt("enter number");
-
-    for (let i = 1; i <= input; i++) {
-
-      for (let j = 1; j <= i; j++) {
-        document.write(j);
-
-      }
-
-      document.write('<br>');
+    switch (Day) {
+      case 1:
+        document.write("monday");
+        break;
+      case 2:
+        document.write("tues");
+        break;
+      default:
+        document.write("Not in calender")
+        break;
     }
 
 
 
-
-
-
-
-
-
-
   </script>
-
-
-
 </body>
 
 </html>
